@@ -114,7 +114,7 @@ if  st.session_state["tabs_sidebar"]:
 
 space(num_lines=2)
 
-colored_header("Tabs Configruations")
+colored_header("Tabs Configurations")
 
 new_tab = st.text_input("Tab label", "New Tab")
 if st.button("Add tab"):
